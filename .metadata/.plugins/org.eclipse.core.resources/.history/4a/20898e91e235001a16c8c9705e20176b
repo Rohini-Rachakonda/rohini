@@ -1,0 +1,19 @@
+package lambda;
+import java.io.*;
+public class FileOutputStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+try
+{
+	FileOutputStream fout=new FileOutputStream("C:\cognizant\FileIOStream.txt");
+	fout.wait(65);
+	fout.close();
+	System.out.println("Success");
+}
+catch(Exception e){
+	System.out.println(e);
+}
+	}
+
+}

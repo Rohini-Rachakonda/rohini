@@ -1,0 +1,13 @@
+package lambda;
+import java.io.FileOutputStream;
+public class FileOutputStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+try
+{
+	FileOutputStream fout=new FileOutputStream("C:\cognizant");
+}
+	}
+
+}

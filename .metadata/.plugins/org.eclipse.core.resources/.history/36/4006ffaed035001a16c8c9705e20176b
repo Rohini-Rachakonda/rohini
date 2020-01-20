@@ -1,0 +1,19 @@
+package lambda;
+
+public class LambdaExpression {
+int id;
+String name;
+int sal;
+public LambdaExpression(int id, String name, int sal) {
+	super();
+	this.id = id;
+	this.name = name;
+	this.sal = sal;
+}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
